@@ -1,4 +1,4 @@
-// components/ContactForm.tsx
+
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { addContact } from '../store/actions/contactActions';
@@ -9,7 +9,6 @@ const ContactForm: React.FC = () => {
   const [email, setEmail] = useState('');
 
   const handleSubmit = () => {
-    // Generate a unique ID for the contact (you can use a library like uuid)
     const id = Math.random().toString(36).substr(2, 9);
     const newContact = { id, name, email };
     dispatch(addContact(newContact));
