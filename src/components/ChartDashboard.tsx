@@ -1,9 +1,6 @@
-// components/ChartDashboard.tsx
 import React from 'react';
 import { Line } from 'react-chartjs-2';
-
 const ChartDashboard: React.FC = () => {
-  // Replace this data with actual chart data fetched from the API
   const chartData = {
     labels: ['January', 'February', 'March', 'April', 'May'],
     datasets: [
