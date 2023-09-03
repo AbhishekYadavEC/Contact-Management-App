@@ -1,4 +1,3 @@
-// store/actions/contactActions.ts
 import { createAction } from '@reduxjs/toolkit';
 
 export const addContact = createAction<Contact>('contact/add');
