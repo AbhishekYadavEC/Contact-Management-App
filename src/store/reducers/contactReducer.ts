@@ -1,4 +1,4 @@
-// store/reducers/contactReducer.ts
+
 import { createReducer } from '@reduxjs/toolkit';
 import { Contact, ContactActions } from '../actions/contactActions';
 
@@ -11,5 +11,4 @@ const initialState: ContactState = {
 };
 
 export const contactReducer = createReducer(initialState, {
-  // Implement your reducer logic for adding, editing, and deleting contacts here
 });
