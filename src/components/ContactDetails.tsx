@@ -1,7 +1,6 @@
 import React from 'react';
 
 const ContactDetails: React.FC = () => {
-  // Replace this with logic to display contact details
   const contact = { name: 'John Doe', email: 'john@example.com' };
 
   return (
