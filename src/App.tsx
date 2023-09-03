@@ -13,14 +13,14 @@ const App: React.FC = () => {
     <Provider store={store}>
       <Router>
         <div>
-          {/* Add navigation or header component here if needed */}
+         
           <Routes>
             <Route path="/add" element={<ContactForm />} />
             <Route path="/list" element={<ContactList />} />
             <Route path="/details/:id" element={<ContactDetails />} />
             <Route path="/chart" element={<ChartDashboard />} />
             <Route path="/map" element={<MapDashboard />} />
-            {/* Add more routes as needed */}
+          
           </Routes>
         </div>
       </Router>
