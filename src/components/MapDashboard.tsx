@@ -1,4 +1,3 @@
-// components/MapDashboard.tsx
 import React, { useEffect, useState } from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import axios from 'axios';
@@ -8,7 +7,6 @@ const MapDashboard: React.FC = () => {
   const [countryData, setCountryData] = useState([]);
 
   useEffect(() => {
-    // Fetch country-specific data of cases
     axios
       .get('https://disease.sh/v3/covid-19/countries')
       .then((response) => {
